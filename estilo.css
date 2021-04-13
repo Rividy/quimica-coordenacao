@@ -1,0 +1,123 @@
+/* GERAL */
+body {background-color: #C0C0C0;} /*cor de fundo da página*/
+
+/* HEADER */
+
+.banner img{width: 105%; height: 30%; margin-bottom: 0; margin-top: -5px;margin-left: -44px;} /*propriedades do banner*/
+
+/* MAIN */
+
+/*propriedades da box com o texto*/
+.intro p{
+	background-color: #C0C0C0;
+	padding: 20px;
+	margin: 10px;
+	text-align: justify;
+	font-family: 'times new roman';
+	font-size: 18;
+	margin-bottom: -2rem;
+}
+.intro p a:hover{color: #b13030}
+
+
+/*propriedade da lista de conteúdos*/
+.conteudo ul{
+	list-style-type: square;
+	padding: 3rem;
+}
+.conteudo ul li{
+	padding: 5px;
+}
+.conteudo ul li a:hover{color: #b13030;}
+.conteudo h2{
+	position: absolute;
+}
+.conteudo{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-top: 2px solid #800000;
+	margin-bottom: -3rem;
+}
+
+
+/* ARTICLE */
+article{
+	display: flex;
+    align-items: baseline;
+    border-top: 2px solid #800000;
+	margin-bottom: -1.5rem;
+	justify-content: center;
+}
+article ul li a:hover{ color: #b13030}
+/*propriedades da lista de exercicios*/
+.exerc{
+	margin: 1rem;
+}
+.exerc h3{
+	padding: 5px;
+}
+.exerc ul{
+	margin-top: -5px;
+	padding: revert;
+	list-style-type: circle;
+}
+.exerc ul li{
+	padding: 5px;
+}
+
+
+/*propriedades da lista dos livros*/
+.livros h2{margin-bottom: 0;}
+.livros{
+	margin: 1rem;
+}
+.livros h3{
+	margin-bottom: 0;
+}
+.livros ul{
+	padding: 20px;
+	margin: 0;
+}
+.livros ul li{
+	padding: 5px;
+}
+
+/*propriedades da lista extra */
+.extra{
+	margin: 1rem;
+}
+.extra h3{
+	margin-bottom: 0;
+}
+.extra ul li{
+	padding: 5px;
+}
+/* FOOTER */
+
+/*propriedades do menu de contato*/
+footer nav ul{ margin: 20px 0; padding: 0;overflow: hidden; list-style-type: none; border-top: 2px solid #800000; 
+	 width: 96vw; height: 100px; display: flex; justify-content: center; padding: 20px;}
+footer nav li a{float: left; margin: 1.2em; width: auto;}
+footer nav li a:hover{color: #b13030;}
+footer nav li a img{max-width: 3vw;}
+
+/* @MEDIA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
