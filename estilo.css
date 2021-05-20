@@ -8,13 +8,19 @@ body {background-color: #C0C0C0;} /*cor de fundo da página*/
 /* MAIN */
 
 /*propriedades da box com o texto*/
+.intro{
+	max-width: 70vw;
+	display: flexbox;
+    margin-left: 18%;
+}
 .intro p{
 	background-color: #C0C0C0;
 	padding: 20px;
 	margin: 10px;
 	text-align: justify;
-	font-family: 'times new roman';
-	font-size: 18;
+	font-family: 'helvetica';
+	font-size: 18px;
+	line-height: 25px;
 	margin-bottom: -2rem;
 }
 .intro p a:hover{color: #b13030}
@@ -27,10 +33,16 @@ body {background-color: #C0C0C0;} /*cor de fundo da página*/
 }
 .conteudo ul li{
 	padding: 5px;
+	font-family: Helvetica;
+	font-size: 16px;
 }
-.conteudo ul li a:hover{color: #b13030;}
+.conteudo ul li a:hover{
+	color: #b13030;
+	}
 .conteudo h2{
 	position: absolute;
+	font-family: rockwell;
+	font-size: 30px;
 }
 .conteudo{
 	display: flex;
@@ -38,6 +50,7 @@ body {background-color: #C0C0C0;} /*cor de fundo da página*/
 	justify-content: center;
 	border-top: 2px solid #800000;
 	margin-bottom: -3rem;
+	padding-right: 18%;
 }
 
 
@@ -48,6 +61,7 @@ article{
     border-top: 2px solid #800000;
 	margin-bottom: -1.5rem;
 	justify-content: center;
+	padding-left: 8%;
 }
 article ul li a:hover{ color: #b13030}
 /*propriedades da lista de exercicios*/
@@ -55,7 +69,9 @@ article ul li a:hover{ color: #b13030}
 	margin: 1rem;
 }
 .exerc h3{
-	padding: 5px;
+	padding: 2px;
+	font-family: rockwell;
+	font-size: 30px
 }
 .exerc ul{
 	margin-top: -5px;
@@ -64,6 +80,8 @@ article ul li a:hover{ color: #b13030}
 }
 .exerc ul li{
 	padding: 5px;
+	font-family:  Helvetica;
+	font-size: 16px
 }
 
 
@@ -74,6 +92,8 @@ article ul li a:hover{ color: #b13030}
 }
 .livros h3{
 	margin-bottom: 0;
+	font-family: rockwell;
+	font-size: 30px;
 }
 .livros ul{
 	padding: 20px;
@@ -81,6 +101,8 @@ article ul li a:hover{ color: #b13030}
 }
 .livros ul li{
 	padding: 5px;
+	font-family:  Helvetica;
+	font-size: 16px;
 }
 
 /*propriedades da lista extra */
@@ -89,20 +111,38 @@ article ul li a:hover{ color: #b13030}
 }
 .extra h3{
 	margin-bottom: 0;
+	font-family: rockwell;
+	font-size: 30px
 }
 .extra ul li{
 	padding: 5px;
+	font-family:  Helvetica;
+	font-size: 16px
 }
 /* FOOTER */
 
 /*propriedades do menu de contato*/
-footer nav ul{ margin: 20px 0; padding: 0;overflow: hidden; list-style-type: none; border-top: 2px solid #800000; 
-	 width: 96vw; height: 100px; display: flex; justify-content: center; padding: 20px;}
-footer nav li a{float: left; margin: 1.2em; width: auto;}
+footer nav ul{ 
+	margin: 20px 0; 
+	padding: 0;overflow: hidden; 
+	list-style-type: none; 
+	border-top: 2px solid #800000; 
+	width: 96vw;
+	height: 100px; 
+	display: flex; 
+	justify-content: center;
+	padding: 20px;}
+footer nav ul li{
+	font-family:  Helvetica;
+	font-size: 16px
+}
+footer nav li a{
+	float: left; 
+	margin: 1.2em;
+	width: auto;}
 footer nav li a:hover{color: #b13030;}
 footer nav li a img{max-width: 3vw;}
 
-/* @MEDIA */
 
 
 
