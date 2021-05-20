@@ -11,7 +11,7 @@ body {background-color: #C0C0C0;} /*cor de fundo da página*/
 .intro{
 	max-width: 70vw;
 	display: flexbox;
-    margin-left: 18%;
+        margin-left: 18%;
 }
 .intro p{
 	background-color: #C0C0C0;
@@ -57,8 +57,8 @@ body {background-color: #C0C0C0;} /*cor de fundo da página*/
 /* ARTICLE */
 article{
 	display: flex;
-    align-items: baseline;
-    border-top: 2px solid #800000;
+        align-items: baseline;
+        border-top: 2px solid #800000;
 	margin-bottom: -1.5rem;
 	justify-content: center;
 	padding-left: 8%;
